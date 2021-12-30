@@ -1,1 +1,1 @@
-Comparison of code
+## Remember, Kings work alone but Several kings is needed to control the world
