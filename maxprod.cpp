@@ -40,5 +40,5 @@ int main()
     int a[]= {-10,2,3,4,6,-4,15};
     int size = sizeof(a)/sizeof(a[0]);
     int max = maxprod(a,size);
-    cout<<max<<endl;
+    cout<<max<<endl; //complexity is 2n ~ ~ O(n)
 }
