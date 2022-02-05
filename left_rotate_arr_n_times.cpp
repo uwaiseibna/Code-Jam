@@ -22,7 +22,6 @@ void rotate_arr_n_times(int a[],int size)
 }
 
 main()
-
 {
     int a[]={1,2,3,4,5,6};
     int size=sizeof(a)/sizeof(a[0]);
