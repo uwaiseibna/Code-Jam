@@ -3,16 +3,13 @@ using namespace std;
 
 void insertion_sort(int a[],int size)
 {
-    
-
-    int pivot=0;
     for(int i=1;i<size;i++)
     {
         int itr=0;
         while(itr<i)
         {
             int j =i;
-            if(a[j]>a[itr])
+            if(a[j]<a[itr])
             {
                 swap(a[itr],a[i]);
                 j--;
