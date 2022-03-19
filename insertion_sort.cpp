@@ -16,10 +16,6 @@ void insertion_sort(int a[],int size)
             itr++;
         }
     }
-    for(int i=0;i<size;i++)
-    {
-        cout<<a[i];
-    }
 }
 
 int main()
