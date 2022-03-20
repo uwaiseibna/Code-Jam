@@ -5,8 +5,6 @@ using namespace std;
 void prime_optimized (int n)
 {
     //using sieve of eratosthenes
-    vector<int> prime;
-    
     unordered_map<int, int> S;
     S.insert({1,2});
     for (int i =3; i<=n;i+=2)
