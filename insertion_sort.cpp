@@ -11,8 +11,7 @@ void insertion_sort(int a[],int size)
             int j =i;
             if(a[j]<a[itr])
             {
-                swap(a[itr],a[i]);
-                j--;
+                swap(a[itr],a[j--]);
             }
             itr++;
         }
