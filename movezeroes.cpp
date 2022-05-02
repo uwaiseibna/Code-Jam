@@ -15,7 +15,10 @@ void move_zeros(int a[], int size)
         else
         {
             a[i]=a[i+zerocount];
-            i++;
+            i++;for(;i<size;i++)
+        {
+            a[i]=0;
+        }
         }
     }
     for(;i<size;i++)
